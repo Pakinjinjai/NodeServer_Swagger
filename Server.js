@@ -5,7 +5,7 @@ const swaggerUi = require("swagger-ui-express");
 const swaggerJSDoc = require("swagger-jsdoc");
 require("./configs/Database");
 const routes = require("./routes/routes");
-const swaggerOptions = require("./swaggerOptions");
+const swaggerOptions = require("./configs/swaggerOptions");
 
 const main = async () => {
   const app = express();
